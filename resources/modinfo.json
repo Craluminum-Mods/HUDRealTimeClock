@@ -1,0 +1,9 @@
+{
+  "type": "code",
+  "side": "client",
+  "modid": "realtimeclock",
+  "name": "HUD Real Time Clock",
+  "description": "The most advanced real time clock you can find on the market. Practically fully configurable.",
+  "authors": ["Craluminum2413"],
+  "version": "1.0.0"
+}
