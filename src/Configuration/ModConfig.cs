@@ -4,7 +4,7 @@ namespace HUDRealTimeClock.Configuration
 {
   static class ModConfig
   {
-    private const string jsonConfig = "RealTimeClockConfig.json";
+    private const string jsonConfig = "HUDRealTimeClockConfig.json";
     private static RealTimeClockConfig config;
 
     public static void ReadConfig(ICoreClientAPI api)
