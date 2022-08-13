@@ -16,7 +16,7 @@ namespace HUDRealTimeClock
     {
       ModConfig.ReadConfig(capi);
       var realTimeClock = new HudElementRealTimeClock(capi);
-      capi.Input.RegisterHotKey("realtimeclock", Lang.Get("realtimeclock:Show/Hide 'Real Time Clock'"), GlKeys.O, HotkeyType.HelpAndOverlays);
+      capi.Input.RegisterHotKey("realtimeclock", Lang.Get("hudrealtimeclock:Show/Hide 'Real Time Clock'"), GlKeys.O, HotkeyType.HelpAndOverlays);
       id = capi.Event.RegisterGameTickListener(delegate
       {
         if (capi.Settings.Bool["realTimeClockGui"]) realTimeClock.TryOpen();
